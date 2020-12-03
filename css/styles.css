@@ -42,7 +42,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 50px;
+    border-radius: 10px;
     margin-right: 10px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -129,9 +129,9 @@ header :checked ~ .header__nav{
 }
 .profile__photo img {
     padding: 10px;
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
+    width: 150px;
+    height: 170px;
+    border-radius: 20px;
 }
 .profile__info {
     width: 100%;
@@ -419,6 +419,7 @@ footer {
 }
 .footer__reference .text
 {
+    text-align: center;
     font-size: 0.8rem;
     color: var(--color-text-light-2);
 }
