@@ -267,6 +267,9 @@ header :checked ~ .header__nav{
     margin-bottom: 15px;
     text-decoration: none;
 }
+.projects__item-info .title a:hover {
+    color: var(--color-text-black-2);
+}
 .projects__item-info .annio {
     text-align: left;
     color: var(--color-text-light-2);
@@ -286,6 +289,10 @@ header :checked ~ .header__nav{
     font-size: 1rem;
     line-height: 21px;
     margin-bottom: 10px;
+}
+
+.projects__item-info .web {
+    color: var(--color-text-black-2);
 }
 
 /* END PROJECTS */
